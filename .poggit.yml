@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Syams225/CrafterKits---PocketMine
+branches:
+- master
+projects:
+  CrafterKits---PocketMine:
+    path: ""
+...
