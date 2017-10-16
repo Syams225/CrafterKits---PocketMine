@@ -1,0 +1,20 @@
+name: CrafterKits
+main: KitPro\KitPro
+version: 1.0.0[S255]
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 4.0.0]
+
+commands:
+  kit:
+    description: Choose a kit
+    usage: "/kit <kit name> or /kit list"
+    permission: kitpro.kit
+  donator:
+    description: Make a user a donator
+    usage: "/donator <add|rmv> <username>"
+    permission: kitpro.donator
+    
+permissions:
+  kitpro.kit:
+    default: true
+  kitpro.donator:
+    default: op
