@@ -96,7 +96,7 @@ class KitPro extends PluginBase implements Listener {
 	}
 	
 	public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
-		if(strtolower($cmd->getName()) === "kit"){
+		if(strtolower($cmd->getName()) === "ckit"){
 			if(isset($args[0])){
 			switch(strtolower($args[0])){
 				case "list":
